@@ -8,7 +8,7 @@ body{
 }
 
 body #container {
-    background-image: url(images/Pixel_Art_Background.jpg);
+    background-image: url(Pixel_Art_Background.jpg);
     display: flex;
     align-items: center;
     flex-direction: column;

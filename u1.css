@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    
+
+}
+
+body #container {
+    background-image: url(images/Pixel_Art_Background.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 500px;
+    width: 900px;
+    border: 10px outset rgb(6, 6, 140);
+    box-shadow: 2px 2px 20px rgb(13, 5, 57);
+
+    font-family: "Bitcount", system-ui;
+    color: rgb(18, 101, 46);
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+#buttons {
+    display: flex;
+    gap: 30px;
+
+}
+
+button {
+    border: 5px outset rgb(197, 195, 205);
+    border-radius: 20px;
+    font-size: large;
+    
+    font-family: "Bitcount", system-ui;
+    color: rgb(5, 44, 18);
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+}
+
+button:hover {
+    border: 5px inset rgb(121, 102, 196);
+    background-color: blue;
+    color: aliceblue;
+}
+
+h1 > img{
+    height:45px;
+
+}
+
+#happi{
+    height: 200px;
+}
+
+table {
+    background-color: rgba(230, 237, 152, 0.7);
+    padding: 10px;
+    font-size: 1.2em;
+    color:rgb(191, 23, 23);
+}
+
+table th {
+    width: 90px;
+}
+
+table td {
+    text-align: center;
+}
+
+@media only screen and (max-width:600px){
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    body #container {
+        width: 95%;
+        height: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    body img {
+        height: 150px;
+    }
+
+}
